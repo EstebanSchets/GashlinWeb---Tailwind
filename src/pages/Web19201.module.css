@@ -183,8 +183,8 @@
 }
 .welcome {
   margin: 0;
-  top: 489px;
-  left: -353px;
+  top: 420px;
+  left: -420px;
   font-size: inherit;
   letter-spacing: 81px;
   font-weight: 400;
@@ -303,11 +303,11 @@
   font-family: inherit;
 }
 .your {
-  top: calc(50% - 194.39px);
+  top: calc(50% - 300px);
   left: calc(50% - 161px);
 }
 .mood {
-  top: calc(50% + 29.76px);
+  top: calc(50% + 25px);
   right: 123px;
 }
 .rectangleButton {
