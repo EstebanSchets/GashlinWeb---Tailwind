@@ -1,0 +1,33 @@
+.path1,
+.search {
+  position: absolute;
+}
+.path1 {
+  border: 1px solid var(--color-dimgray);
+  background-color: transparent;
+  width: calc(100% + 1px);
+  right: 0;
+  bottom: 0;
+  left: -1px;
+  box-sizing: border-box;
+  height: 5px;
+}
+.search {
+  margin: 0;
+  top: 0;
+  left: calc(50% - 55.5px);
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.path1Parent {
+  position: absolute;
+  top: calc(50% - 712.72px);
+  left: calc(50% - 381.02px);
+  width: 818px;
+  height: 58.18px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-franklin-gothic-book);
+}
