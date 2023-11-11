@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Franklin+Gothic+Book:wght@400&display=swap");
+@font-face {
+  font-family: "Franklin Gothic Book";
+  src: url("/public/Franklin Gothic Book Regular.ttf");
+  font-weight: 400;
+}
+
 body {
   margin: 0;
   line-height: normal;
@@ -15,6 +20,9 @@ body {
   /* Colors */
   --color-black: #000;
   --color-white: #fff;
+  --color-khaki: #d1d14d;
+  --color-firebrick: #bf0000;
+  --color-brown: #6c132b;
   --color-dimgray: #707070;
 
   /* Border radiuses */

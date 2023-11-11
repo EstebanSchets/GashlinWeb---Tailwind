@@ -1,0 +1,107 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.home {
+  top: 2px;
+  left: 0;
+}
+.home.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.home:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.about,
+.home,
+.login,
+.merch,
+.music,
+.qa {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-franklin-gothic-book);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  opacity: 0;
+}
+.music {
+  top: 2px;
+  left: calc(50% - 186px);
+}
+.login.animate,
+.music.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.about,
+.login,
+.merch,
+.qa {
+  top: 0;
+}
+.login {
+  right: -1px;
+}
+.login:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.about,
+.merch,
+.qa {
+  left: calc(50% + 138px);
+}
+.qa.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.qa:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.about,
+.merch {
+  top: 2px;
+  left: calc(50% + 33px);
+}
+.about.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.about:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.merch {
+  left: calc(50% - 79px);
+}
+.merch.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.merch:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.homeParent {
+  position: absolute;
+  top: 83px;
+  right: 26px;
+  width: 586px;
+  height: 36px;
+}
