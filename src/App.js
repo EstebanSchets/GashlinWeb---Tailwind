@@ -5,7 +5,10 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import WebMobileSearch from "./pages/WebMobileSearch";
+import WebMobile from "./pages/WebMobile";
 import Web19201 from "./pages/Web19201";
+import Group from "./pages/Group";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +30,18 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/webmobile":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/webpc":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/group-4":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +60,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Web19201 />} />
+      <Route path="/" element={<WebMobileSearch />} />
+      <Route path="/webmobile" element={<WebMobile />} />
+      <Route path="/webpc" element={<Web19201 />} />
+      <Route path="/group-4" element={<Group />} />
     </Routes>
   );
 }

@@ -1,10 +1,10 @@
-import styles from "./WelcomeSection.module.css";
+import "./WelcomeSection.css";
 
 const WelcomeSection = () => {
   return (
-    <div className={styles.lineParent}>
-      <img className={styles.groupChild} alt="" src="/line-1.svg" />
-      <h2 className={styles.welcome}>WELCOME</h2>
+    <div className="line-parent">
+      <img className="line-icon" alt="" src="/line-1.svg" />
+      <h2 className="welcome2">WELCOME</h2>
     </div>
   );
 };

@@ -1,10 +1,10 @@
-import styles from "./SearchSection.module.css";
+import "./SearchSection.css";
 
 const SearchSection = () => {
   return (
-    <div className={styles.path1Parent}>
-      <input className={styles.path1} type="text" />
-      <h1 className={styles.search}>Search...</h1>
+    <div className="path-1-group">
+      <input className="path-11" type="text" />
+      <h1 className="search1">Search...</h1>
     </div>
   );
 };

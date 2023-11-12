@@ -1,7 +1,7 @@
-import styles from "./Logo.module.css";
+import "./Logo.css";
 
 const Logo = () => {
-  return <img className={styles.web19201Child} alt="" src="/undefined1.png" />;
+  return <img className="webpc-child" alt="" src="/undefined11.png" />;
 };
 
 export default Logo;

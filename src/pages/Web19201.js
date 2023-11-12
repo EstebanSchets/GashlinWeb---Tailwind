@@ -2,28 +2,51 @@ import SearchSection from "../components/SearchSection";
 import WelcomeSection from "../components/WelcomeSection";
 import Logo from "../components/Logo";
 import NavBar from "../components/NavBar";
-import ChooseMoodSection from "../components/ChooseMoodSection";
-import styles from "./Web19201.module.css";
+import "./Web19201.css";
 
 const Web19201 = () => {
   return (
-    <main className={styles.web19201}>
+    <main className="webpc">
       <img
-        className={styles.dalle20231111203316A}
+        className="dalle-2023-11-11-203316-a2"
         alt=""
-        src="/LPImage@2x.jpg"
+        src="/LPImage1@2x.jpg"
       />
-      <div className={styles.div} />
+      <div className="div10" />
       <SearchSection />
-      <div className={styles.div1} />
-      <div className={styles.div2} />
-      <div className={styles.div3} />
+      <div className="div11" />
+      <div className="div12" />
+      <div className="div13" />
       <WelcomeSection />
-      <img className={styles.path2Icon} alt="" src="/undefined.png" />
+      <img className="path-2-icon" alt="" src="/undefined5.png" />
       <Logo />
-      <div className={styles.div4} />
+      <div className="div14" />
       <NavBar />
-      <ChooseMoodSection />
+      <div className="component-2-1">
+        <button className="component-2-1-child" />
+        <h3 className="choose2">{`CHOOSE. `}</h3>
+        <h3 className="your2">YOUR.</h3>
+        <h3 className="mood2">MOOD.</h3>
+        <button className="component-2-1-item" />
+        <div className="component-6-1">
+          <button className="button4" />
+          <button className="component-6-1-child" />
+          <h3 className="trippy2">TRIPPY</h3>
+        </div>
+        <div className="component-3-1">
+          <button className="component-3-1-child" />
+          <button className="component-3-1-item" />
+          <h3 className="dark2">DARK</h3>
+        </div>
+        <h3 className="hard2">HARD</h3>
+        <div className="component-5-1">
+          <div className="component-4-12">
+            <button className="component-4-1-inner" />
+          </div>
+          <button className="component-3-1-item" />
+          <h3 className="chill2">CHILL</h3>
+        </div>
+      </div>
     </main>
   );
 };

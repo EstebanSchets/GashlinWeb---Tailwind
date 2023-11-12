@@ -14,23 +14,23 @@
     transform: scale(1);
   }
 }
-.home {
+.home1 {
   top: 2px;
   left: 0;
 }
-.home.animate {
+.home1.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.home:hover {
+.home1:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.about,
-.home,
-.login,
-.merch,
-.music,
-.qa {
+.about1,
+.home1,
+.login1,
+.merch1,
+.music1,
+.qa1 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -43,62 +43,68 @@
   display: inline-block;
   opacity: 0;
 }
-.music {
+.music1 {
   top: 2px;
   left: calc(50% - 186px);
 }
-.login.animate,
-.music.animate {
+.music1.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.about,
-.login,
-.merch,
-.qa {
+.music1:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.about1,
+.login1,
+.merch1,
+.qa1 {
   top: 0;
 }
-.login {
+.login1 {
   right: -1px;
 }
-.login:hover {
-  animation: 1s ease 0s infinite normal none scale-up;
-  opacity: 1;
-}
-.about,
-.merch,
-.qa {
-  left: calc(50% + 138px);
-}
-.qa.animate {
+.login1.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.qa:hover {
+.login1:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.about,
-.merch {
+.about1,
+.merch1,
+.qa1 {
+  left: calc(50% + 138px);
+}
+.qa1.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.qa1:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.about1,
+.merch1 {
   top: 2px;
   left: calc(50% + 33px);
 }
-.about.animate {
+.about1.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.about:hover {
+.about1:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.merch {
+.merch1 {
   left: calc(50% - 79px);
 }
-.merch.animate {
+.merch1.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.merch:hover {
+.merch1:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.homeParent {
+.home-parent {
   position: absolute;
   top: 83px;
   right: 26px;

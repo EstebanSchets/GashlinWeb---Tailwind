@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import styles from "./NavBar.module.css";
+import "./NavBar.css";
 
 const NavBar = () => {
   useEffect(() => {
@@ -11,7 +11,7 @@ const NavBar = () => {
         for (const entry of entries) {
           if (entry.isIntersecting || entry.intersectionRatio > 0) {
             const targetElement = entry.target;
-            targetElement.classList.add(styles.animate);
+            targetElement.classList.add("animate");
             observer.unobserve(targetElement);
           }
         }
@@ -32,21 +32,21 @@ const NavBar = () => {
     };
   }, []);
   return (
-    <div className={styles.homeParent}>
-      <button className={styles.home} data-animate-on-scroll>
+    <div className="home-parent">
+      <button className="home1" data-animate-on-scroll>
         Home
       </button>
-      <button className={styles.music} data-animate-on-scroll>
+      <button className="music1" data-animate-on-scroll>
         Music
       </button>
-      <button className={styles.login} data-animate-on-scroll>
+      <button className="login1" data-animate-on-scroll>
         Login
       </button>
-      <button className={styles.qa} data-animate-on-scroll>{`Q&A`}</button>
-      <button className={styles.about} data-animate-on-scroll>
+      <button className="qa1" data-animate-on-scroll>{`Q&A`}</button>
+      <button className="about1" data-animate-on-scroll>
         About
       </button>
-      <button className={styles.merch} data-animate-on-scroll>
+      <button className="merch1" data-animate-on-scroll>
         Merch
       </button>
     </div>
