@@ -32,4 +32,10 @@ pids
 
 # OS-specific
 Thumbs.db
+
+#Files
+/src/app.jsx
+
+
+
   

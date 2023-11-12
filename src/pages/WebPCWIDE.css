@@ -390,15 +390,18 @@
   height: 59px;
 }
 .webpc-wide {
-  position: relative;
+  position: absolute;
   background-color: var(--color-black);
   width: 100%;
+  max-width: 2560px; /* Set the maximum width */
   height: 3240px;
   text-align: left;
   font-size: var(--font-size-11xl);
   color: var(--color-white);
   font-family: var(--font-franklin-gothic-book);
+  margin: 0 auto; /* Center the content */
 }
+
 @media screen and (max-width: 1200px) {
   .merch {
     opacity: 1;

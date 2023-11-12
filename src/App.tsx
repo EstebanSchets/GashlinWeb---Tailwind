@@ -8,6 +8,7 @@ import {
 import Web19201 from "./pages/Web19201";
 import WebMobile from "./pages/WebMobile";
 import WebMobileSearch from "./pages/WebMobileSearch";
+import WebPCWIDE from "./pages/WebPCWIDE"; // Import the new component
 import Group from "./pages/Group";
 
 function App() {
@@ -38,19 +39,23 @@ function App() {
         title = "Web Mobile Search Page";
         metaDescription = "Description for Web Mobile Search page";
         break;
+      case "/webpcwide":
+        title = "Web Pc Wide";
+        metaDescription = "Description for Web Mobile Search page";
+        break;
       case "/group-4":
         title = "Group 4 Page";
         metaDescription = "Description for Group 4 page";
         break;
       // Add more cases as needed for other routes
 
-      
+
     }
 
     if (title) {
       document.title = title;
     }
-  
+
     if (metaDescription) {
       const metaDescriptionTag = document.querySelector('head > meta[name="description"]');
       if (metaDescriptionTag) {
@@ -67,15 +72,35 @@ function App() {
   // Determine if the visitor is using a mobile device
   const isMobile = isMobileDevice();
 
+  // Function to detect wide screen
+  const isWideScreen = () => {
+    return window.innerWidth > 1200;
+  };
+
+  // Determine if the visitor is using a wide screen
+  const isWide = isWideScreen();
+
+    // Log the version of the page that is opened
+    if (isWide) {
+      console.log("Opened Wide Screen Version");
+    } else if (isMobile) {
+      console.log("Opened Mobile Version");
+    } else {
+      console.log("Opened Default Version");
+    }
+
   return (
     <Routes>
-      <Route path="/" element={isMobile ? <WebMobile /> : <Web19201 />} />
-      {/* Uncomment the lines below if you want to keep these routes accessible */}
-       <Route path="/webmobile" element={<WebMobile />} />
+      <Route path="/" element={isWide ? <WebPCWIDE /> : (isMobile ? <WebMobile /> : <Web19201 />)} />
+      {/* Other routes */}
+      <Route path="/webmobile" element={<WebMobile />} />
       <Route path="/webmobilesearch" element={<WebMobileSearch />} />
-      <Route path="/group-4" element={<Group />} /> 
+      <Route path="/group-4" element={<Group />} />
+      {/* Add more routes as needed */}
     </Routes>
   );
+
+
 }
 
 
