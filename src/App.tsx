@@ -27,44 +27,57 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
+        title = "Home Page"; // Set your page title
+        metaDescription = "This is the home page description"; // Set your page description
         break;
       case "/webmobile":
-        title = "";
-        metaDescription = "";
+        title = "Web Mobile Page";
+        metaDescription = "Description for Web Mobile page";
         break;
       case "/webmobilesearch":
-        title = "";
-        metaDescription = "";
+        title = "Web Mobile Search Page";
+        metaDescription = "Description for Web Mobile Search page";
         break;
       case "/group-4":
-        title = "";
-        metaDescription = "";
+        title = "Group 4 Page";
+        metaDescription = "Description for Group 4 page";
         break;
+      // Add more cases as needed for other routes
+
+      
     }
 
     if (title) {
       document.title = title;
     }
-
+  
     if (metaDescription) {
-      const metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
-        'head > meta[name="description"]'
-      );
+      const metaDescriptionTag = document.querySelector('head > meta[name="description"]');
       if (metaDescriptionTag) {
-        metaDescriptionTag.content = metaDescription;
+        (metaDescriptionTag as HTMLMetaElement).content = metaDescription;
       }
     }
   }, [pathname]);
 
+  // Function to detect mobile device
+  const isMobileDevice = () => {
+    return /Mobi|Android/i.test(navigator.userAgent);
+  };
+
+  // Determine if the visitor is using a mobile device
+  const isMobile = isMobileDevice();
+
   return (
     <Routes>
-      <Route path="/" element={<Web19201 />} />
-      <Route path="/webmobile" element={<WebMobile />} />
+      <Route path="/" element={isMobile ? <WebMobile /> : <Web19201 />} />
+      {/* Uncomment the lines below if you want to keep these routes accessible */}
+       <Route path="/webmobile" element={<WebMobile />} />
       <Route path="/webmobilesearch" element={<WebMobileSearch />} />
-      <Route path="/group-4" element={<Group />} />
+      <Route path="/group-4" element={<Group />} /> 
     </Routes>
   );
 }
+
+
+
 export default App;
