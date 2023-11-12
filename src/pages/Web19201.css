@@ -1,58 +1,70 @@
 .dalle-2023-11-11-203316-a2 {
   position: absolute;
   top: 26px;
-  left: calc(50% - 449px);
+  left: 511px;
   width: 898px;
   height: 898px;
   object-fit: cover;
 }
-.div10,
-.div11 {
+.div108,
+.div109 {
   position: absolute;
 }
-.div10 {
+.div108 {
   top: 152px;
   left: 99px;
   font-size: var(--font-size-xl);
   color: var(--color-dimgray);
 }
-.div11 {
-  top: calc(50% - 376.89px);
-  left: calc(50% - 166.48px);
+.div109 {
+  top: 1243.11px;
+  left: 793.52px;
 }
-.div12,
-.div13,
-.path-2-icon {
+.div110,
+.div111,
+.div112 {
   position: absolute;
   top: 152px;
   left: 73px;
 }
-.div13,
-.path-2-icon {
+.div111,
+.div112 {
   left: 89px;
 }
-.path-2-icon {
-  top: 73.5px;
-  left: 237.8px;
-  width: 123.51px;
-  height: 142.31px;
-  object-fit: cover;
-}
-.div14 {
-  position: absolute;
+.div112 {
   top: 114px;
-  left: calc(50% - 363px);
+  left: 597px;
   font-size: var(--font-size-71xl);
   letter-spacing: 81px;
   display: inline-block;
   width: 57px;
 }
-.component-2-1-child {
+.choose6,
+.mood2,
+.your6 {
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 81px;
+  font-weight: 400;
+  font-family: inherit;
+  margin: 0 757px 0 0;
+}
+.mood2,
+.your6 {
+  margin: 0 458px 0 0;
+}
+.mood2 {
+  margin: -43px 21px 0 0;
+}
+.group-child,
+.group-item {
   cursor: pointer;
-  border: 1px solid var(--color-black);
   padding: 0;
-  background-color: var(--color-firebrick);
   position: absolute;
+}
+.group-child {
+  border: 1px solid var(--color-black);
+  background-color: #bf0000;
   right: 0;
   bottom: 0;
   border-radius: var(--br-54xl);
@@ -60,35 +72,10 @@
   width: 402px;
   height: 395px;
 }
-.choose2 {
-  top: 0;
-  left: 20px;
-}
-.choose2,
-.mood2,
-.your2 {
-  margin: 0;
-  position: absolute;
-  font-size: var(--font-size-71xl);
-  letter-spacing: 81px;
-  font-weight: 400;
-  font-family: inherit;
-}
-.your2 {
-  top: calc(50% - 246.78px);
-  left: calc(50% - 161.5px);
-}
-.mood2 {
-  top: calc(50% - 22.63px);
-  right: 20px;
-}
-.component-2-1-item {
-  cursor: pointer;
+.group-item {
   border: 0;
-  padding: 0;
   background-color: var(--color-black);
-  position: absolute;
-  top: calc(50% + 281.61px);
+  top: calc(50% - 34.5px);
   right: 113px;
   border-radius: var(--br-16xl);
   width: 175px;
@@ -144,7 +131,7 @@
 }
 .component-3-1-child {
   border: 1px solid var(--color-black);
-  background-color: var(--color-brown);
+  background-color: #6c132b;
   height: 100%;
   width: 100%;
   top: 0;
@@ -182,22 +169,22 @@
 .hard2 {
   margin: 0;
   position: absolute;
-  top: calc(50% + 287.61px);
+  top: calc(50% - 28.5px);
   right: 140px;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
 }
-.component-4-1-inner {
+.component-4-1-child {
   cursor: pointer;
   border: 1px solid var(--color-black);
   padding: 0;
-  background-color: var(--color-khaki);
+  background-color: #d1d14d;
   border-radius: var(--br-54xl);
   box-sizing: border-box;
 }
-.component-4-1-inner,
-.component-4-12 {
+.component-4-1,
+.component-4-1-child {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -222,14 +209,55 @@
   width: 402px;
   height: 395px;
 }
+.rectangle-parent {
+  position: relative;
+  width: 1713px;
+  height: 395px;
+  margin-top: -126px;
+  font-size: var(--font-size-31xl);
+}
 .component-2-1 {
   position: absolute;
-  width: calc(100% - 207px);
-  top: calc(50% - 461.22px);
-  right: 103px;
+  top: 1158.78px;
   left: 104px;
+  width: 1713px;
   height: 1027.22px;
-  font-size: var(--font-size-31xl);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 165px;
+  font-size: var(--font-size-71xl);
+}
+.component-13-12 {
+  position: absolute;
+  top: 0;
+  left: 73px;
+  width: 106px;
+  height: 1079px;
+  object-fit: cover;
+}
+.dalle-2023-11-12-165108-a2 {
+  position: absolute;
+  bottom: 0;
+  left: 402px;
+  width: 1024px;
+  height: 1024px;
+  object-fit: cover;
+}
+.webpc-child,
+.webpc-item {
+  position: absolute;
+  top: 83px;
+  left: 233px;
+  width: 123px;
+  height: 142px;
+  object-fit: cover;
+}
+.webpc-item {
+  top: 984px;
+  left: 551px;
+  width: 819px;
+  height: 59px;
 }
 .webpc {
   position: relative;

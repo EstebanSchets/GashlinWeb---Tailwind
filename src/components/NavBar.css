@@ -96,9 +96,10 @@
 }
 .merch1 {
   left: calc(50% - 79px);
+  opacity: 1;
 }
 .merch1.animate {
-  animation: 1s ease 0s 1 normal forwards fade-in;
+  animation: 1s ease 0s 1 normal forwards scale-up;
 }
 .merch1:hover {
   animation: 1s ease 0s infinite normal none scale-up;
@@ -110,4 +111,20 @@
   right: 26px;
   width: 586px;
   height: 36px;
+}
+@media screen and (max-width: 1200px) {
+  .merch1 {
+    opacity: 1;
+  }
+  .merch1.animate {
+    animation: 1s ease 0s 1 normal forwards scale-up;
+  }
+  @keyframes scale-up {
+    0% {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
 }
