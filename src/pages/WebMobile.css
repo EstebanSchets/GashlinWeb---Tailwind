@@ -1,4 +1,4 @@
-.dalle-2023-11-11-203316-a1 {
+.dalle-2023-11-11-203316-a {
   position: absolute;
   width: calc(100% + 60px);
   top: 197px;
@@ -9,32 +9,32 @@
   height: 451px;
   object-fit: cover;
 }
-.div5,
-.div6 {
+.div,
+.div1 {
   position: absolute;
 }
-.div5 {
+.div {
   top: 152px;
   left: calc(50% - 96px);
   font-size: var(--font-size-xl);
   color: var(--color-dimgray);
 }
-.div6 {
+.div1 {
   top: calc(50% - 196.35px);
   left: calc(50% - 33.82px);
 }
-.div7,
-.div8 {
+.div2,
+.div3 {
   position: absolute;
   top: 152px;
 }
-.div7 {
+.div2 {
   left: 73px;
 }
-.div8 {
+.div3 {
   left: calc(50% - 106px);
 }
-.path-3-icon1 {
+.path-3-icon {
   position: absolute;
   height: 100%;
   width: 1.52%;
@@ -47,13 +47,13 @@
   max-height: 100%;
   object-fit: cover;
 }
-.path-3-group,
-.welcome1 {
+.path-3-parent,
+.welcome {
   margin: 0;
   position: absolute;
   font-family: inherit;
 }
-.welcome1 {
+.welcome {
   top: 46.48%;
   left: -381.82%;
   font-size: inherit;
@@ -61,31 +61,20 @@
   font-weight: 400;
   transform: rotate(270deg);
 }
-.path-3-group {
+.path-3-parent {
   top: 73.5px;
   left: 0;
   width: 66px;
   height: 678.8px;
   font-size: var(--font-size-39xl);
 }
-.div9 {
+.div4 {
   position: absolute;
   top: calc(50% - 326.67px);
   left: calc(50% - 50.63px);
   font-size: var(--font-size-71xl);
 }
-.e44faa87780c097ca3cde4206add46 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 73.5px;
-  right: 21px;
-  width: 37.5px;
-  height: 40px;
-}
-.path-5-icon {
+.e44faa87780c097ca3cde4206add46-icon {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -97,6 +86,17 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+}
+.e44faa87780c097ca3cde4206add46 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 73.5px;
+  right: 21px;
+  width: 37.5px;
+  height: 40px;
 }
 .component-3-2-child {
   cursor: pointer;
@@ -110,7 +110,7 @@
   width: 95px;
   height: 34px;
 }
-.dark1 {
+.dark {
   margin: 0;
   position: absolute;
   top: calc(50% - 20px);
@@ -122,7 +122,7 @@
   text-align: left;
 }
 .component-3-2,
-.component-4-1-item {
+.component-4-1-child {
   cursor: pointer;
   padding: 0;
   position: absolute;
@@ -135,7 +135,7 @@
   width: 184px;
   height: 184px;
 }
-.component-4-1-item {
+.component-4-1-child {
   border: 1px solid var(--color-black);
   background-color: var(--color-khaki);
   height: 100%;
@@ -146,12 +146,12 @@
   border-radius: var(--br-9xl);
   box-sizing: border-box;
 }
-.chill1,
-.rectangle-button {
+.chill,
+.group-child {
   position: absolute;
   top: calc(50% - 18px);
 }
-.rectangle-button {
+.group-child {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -161,7 +161,7 @@
   width: 94px;
   height: 34px;
 }
-.chill1 {
+.chill {
   margin: 0;
   left: calc(50% - 33.7px);
   font-size: var(--font-size-13xl);
@@ -171,7 +171,7 @@
   color: var(--color-white);
   text-align: left;
 }
-.component-4-1-group {
+.component-4-1-parent {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -187,15 +187,15 @@
   width: 184px;
   height: 184px;
 }
-.button2,
+.button,
 .component-5-2,
-.group-child1 {
+.group-item {
   cursor: pointer;
   border: 0;
   padding: 0;
   position: absolute;
 }
-.button2 {
+.button {
   background-color: transparent;
   height: 100%;
   width: 100%;
@@ -209,7 +209,7 @@
   background-repeat: no-repeat;
   background-position: top;
 }
-.group-child1 {
+.group-item {
   background-color: var(--color-black);
   top: calc(50% - 17px);
   left: calc(50% - 62.78px);
@@ -217,12 +217,12 @@
   width: 125.56px;
   height: 34px;
 }
-.rectangle-container,
-.trippy1 {
+.rectangle-parent,
+.trippy {
   position: absolute;
   top: calc(50% - 18px);
 }
-.trippy1 {
+.trippy {
   margin: 0;
   left: calc(50% - 48px);
   font-size: var(--font-size-13xl);
@@ -231,7 +231,7 @@
   color: var(--color-white);
   text-align: left;
 }
-.rectangle-container {
+.rectangle-parent {
   right: 29.22px;
   width: 125.56px;
   height: 36px;
@@ -244,14 +244,14 @@
   width: 184px;
   height: 184px;
 }
-.button3,
+.button1,
 .component-6-2,
-.group-child2 {
+.group-inner {
   cursor: pointer;
   padding: 0;
   position: absolute;
 }
-.button3 {
+.button1 {
   border: 1px solid var(--color-black);
   background-color: var(--color-firebrick);
   height: 100%;
@@ -263,7 +263,7 @@
   border-radius: var(--br-9xl);
   box-sizing: border-box;
 }
-.group-child2 {
+.group-inner {
   border: 0;
   background-color: var(--color-black);
   top: calc(50% - 16.42px);
@@ -272,7 +272,7 @@
   width: 125.56px;
   height: 34px;
 }
-.hard1 {
+.hard {
   margin: 0;
   position: absolute;
   top: calc(50% - 17.59px);
@@ -283,7 +283,7 @@
   color: var(--color-white);
   text-align: left;
 }
-.rectangle-parent1 {
+.rectangle-group {
   position: absolute;
   top: calc(50% - 18.09px);
   right: 27.94px;
@@ -310,42 +310,42 @@
   left: 0;
   height: 380.58px;
 }
-.choose1 {
+.choose {
   top: 118.5px;
   left: -118.5px;
   letter-spacing: 30.6px;
   font-weight: 400;
   transform: rotate(270deg);
 }
-.choose-container,
-.choose1,
-.mood1,
-.your1 {
+.choose,
+.choose-wrapper,
+.mood,
+.your {
   margin: 0;
   position: absolute;
   font-size: inherit;
   font-family: inherit;
 }
-.choose-container {
+.choose-wrapper {
   top: -118.5px;
   left: 118.5px;
   width: 38px;
   height: 275px;
   transform: rotate(90deg);
 }
-.mood1,
-.your1 {
+.mood,
+.your {
   top: 67px;
   left: -61px;
   letter-spacing: 30.6px;
   font-weight: 400;
   transform: rotate(270deg);
 }
-.mood1 {
+.mood {
   top: 171px;
   left: -73px;
 }
-.your-group {
+.your-parent {
   position: absolute;
   top: 62px;
   left: 69px;
@@ -353,7 +353,7 @@
   height: 184px;
   transform: rotate(90deg);
 }
-.group-parent1 {
+.group-container {
   position: absolute;
   height: 30.81%;
   width: 71.8%;
@@ -362,7 +362,7 @@
   bottom: 69.19%;
   left: 13.32%;
 }
-.group-div {
+.group-parent {
   position: absolute;
   width: calc(100% - 7px);
   right: 0;

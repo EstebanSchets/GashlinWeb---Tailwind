@@ -6,23 +6,27 @@ const WebMobileSearch = () => {
   const navigate = useNavigate();
 
   const onCa1ebc695b5f509e80555d259dbb4bIconClick = useCallback(() => {
-    navigate("/webmobile");
+    navigate("/");
   }, [navigate]);
 
   return (
     <main className="webmobile-search">
-      <img className="dalle-2023-11-11-203316-a" alt="" src="/LPImage@2x.jpg" />
-      <div className="div" />
-      <div className="div1" />
-      <div className="div2" />
-      <div className="div3" />
-      <h2 className="path-3-parent">
-        <img className="path-3-icon" alt="" src="/undefined.png" />
-        <h2 className="welcome">WELCOME</h2>
-      </h2>
-      <div className="div4" />
       <img
-        className="e44faa87780c097ca3cde4206add46-icon"
+        className="dalle-2023-11-11-203316-a1"
+        alt=""
+        src="/LPImage@2x.jpg"
+      />
+      <div className="div5" />
+      <div className="div6" />
+      <div className="div7" />
+      <div className="div8" />
+      <h2 className="path-3-group">
+        <img className="path-3-icon1" alt="" src="/undefined.png" />
+        <h2 className="welcome1">WELCOME</h2>
+      </h2>
+      <div className="div9" />
+      <img
+        className="e44faa87780c097ca3cde4206add46-icon1"
         alt=""
         src="/undefined1.png"
       />
@@ -42,44 +46,44 @@ const WebMobileSearch = () => {
           onClick={onCa1ebc695b5f509e80555d259dbb4bIconClick}
         />
       </nav>
-      <div className="group-parent">
+      <div className="group-div">
         <button className="component-3-3-parent">
           <button className="component-3-3">
             <button className="component-3-3-child" />
             <button className="component-3-3-item" />
-            <h3 className="dark">DARK</h3>
+            <h3 className="dark1">DARK</h3>
           </button>
           <button className="component-5-3">
-            <button className="component-4-1-parent">
-              <div className="component-4-1">
-                <button className="component-4-1-child" />
+            <button className="component-4-1-group">
+              <div className="component-4-11">
+                <button className="component-4-1-item" />
               </div>
-              <button className="group-child" />
-              <h3 className="chill">CHILL</h3>
+              <button className="rectangle-button" />
+              <h3 className="chill1">CHILL</h3>
             </button>
           </button>
           <button className="component-6-4">
-            <button className="button" />
-            <div className="rectangle-parent">
-              <button className="group-item" />
-              <h3 className="trippy">TRIPPY</h3>
+            <button className="button2" />
+            <div className="rectangle-container">
+              <button className="group-child1" />
+              <h3 className="trippy1">TRIPPY</h3>
             </div>
           </button>
           <button className="component-6-5">
-            <button className="button1" />
-            <div className="rectangle-group">
-              <button className="group-inner" />
-              <h3 className="hard">HARD</h3>
+            <button className="button3" />
+            <div className="rectangle-parent1">
+              <button className="group-child2" />
+              <h3 className="hard1">HARD</h3>
             </div>
           </button>
         </button>
-        <div className="group-container">
-          <h2 className="choose-wrapper">
-            <h2 className="choose">CHOOSE</h2>
+        <div className="group-parent1">
+          <h2 className="choose-container">
+            <h2 className="choose1">CHOOSE</h2>
           </h2>
-          <div className="your-parent">
-            <h2 className="your">YOUR</h2>
-            <h2 className="mood">MOOD</h2>
+          <div className="your-group">
+            <h2 className="your1">YOUR</h2>
+            <h2 className="mood1">MOOD</h2>
           </div>
         </div>
       </div>

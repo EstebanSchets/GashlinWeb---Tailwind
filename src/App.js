@@ -5,8 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import WebMobileSearch from "./pages/WebMobileSearch";
 import WebMobile from "./pages/WebMobile";
+import WebMobileSearch from "./pages/WebMobileSearch";
 import Web19201 from "./pages/Web19201";
 import Group from "./pages/Group";
 
@@ -30,7 +30,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/webmobile":
+      case "/webmobilesearch":
         title = "";
         metaDescription = "";
         break;
@@ -60,8 +60,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<WebMobileSearch />} />
-      <Route path="/webmobile" element={<WebMobile />} />
+      <Route path="/" element={<WebMobile />} />
+      <Route path="/webmobilesearch" element={<WebMobileSearch />} />
       <Route path="/webpc" element={<Web19201 />} />
       <Route path="/group-4" element={<Group />} />
     </Routes>

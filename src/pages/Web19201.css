@@ -83,23 +83,19 @@
   right: 20px;
 }
 .component-2-1-item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
   background-color: var(--color-black);
+  position: absolute;
   top: calc(50% + 281.61px);
   right: 113px;
   border-radius: var(--br-16xl);
   width: 175px;
   height: 70px;
 }
-.button4,
-.component-2-1-item,
-.component-6-1-child {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
+.icon {
   position: absolute;
-}
-.button4 {
-  background-color: transparent;
   height: 100%;
   width: 100%;
   top: 0;
@@ -107,13 +103,17 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-54xl);
-  background-image: url(/public/18038192-59360731@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
 .component-6-1-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
   background-color: var(--color-black);
+  position: absolute;
   top: calc(50% - 34.5px);
   left: calc(50% - 88px);
   border-radius: var(--br-16xl);
