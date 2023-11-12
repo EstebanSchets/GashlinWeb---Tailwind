@@ -47,21 +47,19 @@
   max-height: 100%;
   object-fit: cover;
 }
-.path-3-group,
 .welcome1 {
   margin: 0;
   position: absolute;
-  font-family: inherit;
-}
-.welcome1 {
   top: 46.48%;
   left: -324.85%;
   font-size: inherit;
   letter-spacing: 52.2px;
   font-weight: 400;
+  font-family: inherit;
   transform: rotate(270deg);
 }
-.path-3-group {
+.component-14-1 {
+  position: absolute;
   top: 73.5px;
   left: 0;
   width: 77.57px;
@@ -148,7 +146,6 @@
   left: calc(50% - 60.47px);
   width: 25.97px;
   height: 26.48px;
-  object-fit: cover;
   cursor: pointer;
 }
 .navbarmobile {
@@ -369,29 +366,27 @@
   color: var(--color-white);
   text-align: left;
 }
-.rectangle-parent1 {
+.group-div {
   position: absolute;
   top: calc(50% - 18.09px);
   right: 27.94px;
   width: 125.56px;
   height: 36px;
 }
-.component-3-3-parent,
 .component-6-5 {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
-}
-.component-6-5 {
   bottom: 1.59px;
   left: calc(50% + 5.91px);
   width: 184px;
   height: 184px;
   transform: rotate(359deg);
 }
-.component-3-3-parent {
+.component-10-1 {
+  position: absolute;
   width: 100%;
   right: 0;
   bottom: 0;
@@ -415,10 +410,12 @@
   font-family: inherit;
 }
 .choose-container {
-  top: -118.5px;
-  left: 118.5px;
-  width: 38px;
-  height: 275px;
+  height: 123.87%;
+  width: 13.82%;
+  top: -53.38%;
+  right: 43.09%;
+  bottom: 29.5%;
+  left: 43.09%;
   transform: rotate(90deg);
 }
 .mood1,
@@ -435,22 +432,29 @@
 }
 .your-group {
   position: absolute;
-  top: 62px;
-  left: 69px;
-  width: 136px;
-  height: 184px;
+  height: 82.88%;
+  width: 49.45%;
+  top: 27.93%;
+  right: 25.45%;
+  bottom: -10.81%;
+  left: 25.09%;
   transform: rotate(90deg);
 }
-.group-parent1 {
+.component-8-1 {
   position: absolute;
-  height: 30.81%;
-  width: 71.8%;
+  width: calc(100% - 108px);
   top: 0;
-  right: 14.88%;
-  bottom: 69.19%;
-  left: 13.32%;
+  right: 57px;
+  left: 51px;
+  height: 222px;
 }
-.group-div {
+.component-12-1,
+.webmobile-search {
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-franklin-gothic-book);
+}
+.component-12-1 {
   position: absolute;
   width: calc(100% - 7px);
   right: 0;
@@ -464,8 +468,12 @@
   background-color: var(--color-black);
   width: 100%;
   height: 1688px;
-  text-align: left;
   font-size: var(--font-size-11xl);
-  color: var(--color-white);
-  font-family: var(--font-franklin-gothic-book);
+}
+@media screen and (max-width: 428px) {
+  .webmobile-search {
+    width: 100%;
+    height: auto;
+    flex-direction: VERTICAL;
+  }
 }

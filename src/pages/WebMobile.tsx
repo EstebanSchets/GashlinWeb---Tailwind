@@ -16,10 +16,10 @@ const WebMobile: FunctionComponent = () => {
       <div className="div1" />
       <div className="div2" />
       <div className="div3" />
-      <h2 className="path-3-parent">
+      <div className="component-13-1">
         <img className="path-3-icon" alt="" src="/undefined.png" />
         <h2 className="welcome">WELCOME</h2>
-      </h2>
+      </div>
       <div className="div4" />
       <button
         className="e44faa87780c097ca3cde4206add46"
@@ -31,13 +31,13 @@ const WebMobile: FunctionComponent = () => {
           src="/undefined1.png"
         />
       </button>
-      <div className="group-parent">
-        <div className="component-3-2-parent">
+      <section className="component-11-1">
+        <div className="component-9-1">
           <button className="component-3-2">
             <img
               className="e44faa87780c097ca3cde4206add46-icon"
               alt=""
-              src="/undefined4.png"
+              src="/undefined2.png"
             />
             <button className="component-3-2-child" />
             <h3 className="dark">DARK</h3>
@@ -66,7 +66,7 @@ const WebMobile: FunctionComponent = () => {
             </div>
           </button>
         </div>
-        <div className="group-container">
+        <div className="component-7-1">
           <h1 className="choose-wrapper">
             <h2 className="choose">CHOOSE</h2>
           </h1>
@@ -75,7 +75,7 @@ const WebMobile: FunctionComponent = () => {
             <h2 className="mood">MOOD</h2>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 };

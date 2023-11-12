@@ -6,7 +6,7 @@ const WebMobileSearch: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onCa1ebc695b5f509e80555d259dbb4bIconClick = useCallback(() => {
-    navigate("/");
+    navigate("/webmobile");
   }, [navigate]);
 
   return (
@@ -20,10 +20,10 @@ const WebMobileSearch: FunctionComponent = () => {
       <div className="div6" />
       <div className="div7" />
       <div className="div8" />
-      <h2 className="path-3-group">
+      <div className="component-14-1">
         <img className="path-3-icon1" alt="" src="/undefined.png" />
         <h2 className="welcome1">WELCOME</h2>
-      </h2>
+      </div>
       <div className="div9" />
       <img
         className="e44faa87780c097ca3cde4206add46-icon1"
@@ -31,7 +31,7 @@ const WebMobileSearch: FunctionComponent = () => {
         src="/undefined1.png"
       />
       <nav className="navbarmobile">
-        <img className="path-4-icon" alt="" src="/undefined2.png" />
+        <img className="path-4-icon" alt="" src="/undefined3.png" />
         <a className="home">HOME</a>
         <a className="music">MUSIC</a>
         <a className="merch">MERCH</a>
@@ -42,12 +42,12 @@ const WebMobileSearch: FunctionComponent = () => {
         <img
           className="ca1ebc695b5f509e80555d259dbb4b-icon"
           alt=""
-          src="/undefined3.png"
+          src="/9ca1ebc695b5f509e80555d259dbb4b7.svg"
           onClick={onCa1ebc695b5f509e80555d259dbb4bIconClick}
         />
       </nav>
-      <div className="group-div">
-        <button className="component-3-3-parent">
+      <section className="component-12-1">
+        <div className="component-10-1">
           <button className="component-3-3">
             <button className="component-3-3-child" />
             <button className="component-3-3-item" />
@@ -71,13 +71,13 @@ const WebMobileSearch: FunctionComponent = () => {
           </button>
           <button className="component-6-5">
             <button className="button3" />
-            <div className="rectangle-parent1">
+            <div className="group-div">
               <button className="group-child2" />
               <h3 className="hard1">HARD</h3>
             </div>
           </button>
-        </button>
-        <div className="group-parent1">
+        </div>
+        <div className="component-8-1">
           <h2 className="choose-container">
             <h2 className="choose1">CHOOSE</h2>
           </h2>
@@ -86,7 +86,7 @@ const WebMobileSearch: FunctionComponent = () => {
             <h2 className="mood1">MOOD</h2>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 };

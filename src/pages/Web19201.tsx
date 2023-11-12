@@ -19,7 +19,7 @@ const Web19201: FunctionComponent = () => {
       <div className="div12" />
       <div className="div13" />
       <WelcomeSection />
-      <img className="path-2-icon" alt="" src="/undefined5.png" />
+      <img className="path-2-icon" alt="" src="/undefined4.png" />
       <Logo />
       <div className="div14" />
       <NavBar />
@@ -30,7 +30,7 @@ const Web19201: FunctionComponent = () => {
         <h3 className="mood2">MOOD.</h3>
         <button className="component-2-1-item" />
         <div className="component-6-1">
-          <img className="icon" alt="" src="/18038192-59360731@3x.png" />
+          <img className="icon" alt="" src="/18038192-59360731@2x.png" />
           <button className="component-6-1-child" />
           <h3 className="trippy2">TRIPPY</h3>
         </div>
