@@ -1,8 +1,8 @@
-import { useCallback } from "react";
+import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./WebMobile.css";
 
-const WebMobile = () => {
+const WebMobile: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onE44faa87780c097ca3cde4206add46Click = useCallback(() => {

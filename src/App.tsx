@@ -49,7 +49,7 @@ function App() {
     }
 
     if (metaDescription) {
-      const metaDescriptionTag = document.querySelector(
+      const metaDescriptionTag: HTMLMetaElement | null = document.querySelector(
         'head > meta[name="description"]'
       );
       if (metaDescriptionTag) {

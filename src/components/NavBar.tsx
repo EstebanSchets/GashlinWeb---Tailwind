@@ -1,7 +1,7 @@
-import { useEffect } from "react";
+import { FunctionComponent, useEffect } from "react";
 import "./NavBar.css";
 
-const NavBar = () => {
+const NavBar: FunctionComponent = () => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"

@@ -1,6 +1,7 @@
+import { FunctionComponent } from "react";
 import "./WelcomeSection.css";
 
-const WelcomeSection = () => {
+const WelcomeSection: FunctionComponent = () => {
   return (
     <div className="line-parent">
       <img className="line-icon" alt="" src="/line-1.svg" />

@@ -1,6 +1,7 @@
+import { FunctionComponent } from "react";
 import "./Group.css";
 
-const Group = () => {
+const Group: FunctionComponent = () => {
   return (
     <div className="path-1-parent">
       <input className="path-1" type="text" />

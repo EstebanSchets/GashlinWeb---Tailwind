@@ -1,10 +1,11 @@
+import { FunctionComponent } from "react";
 import SearchSection from "../components/SearchSection";
 import WelcomeSection from "../components/WelcomeSection";
 import Logo from "../components/Logo";
 import NavBar from "../components/NavBar";
 import "./Web19201.css";
 
-const Web19201 = () => {
+const Web19201: FunctionComponent = () => {
   return (
     <main className="webpc">
       <img

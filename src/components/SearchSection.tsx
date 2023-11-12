@@ -1,6 +1,7 @@
+import { FunctionComponent } from "react";
 import "./SearchSection.css";
 
-const SearchSection = () => {
+const SearchSection: FunctionComponent = () => {
   return (
     <div className="path-1-group">
       <input className="path-11" type="text" />
