@@ -13,18 +13,21 @@ body {
   --font-franklin-gothic-book: "Franklin Gothic Book";
 
   /* font sizes */
-  --font-size-13xl: 32px;
-  --font-size-lgi: 19px;
-  --font-size-mini: 15px;
+  --font-size-31xl: 50px;
   --font-size-71xl: 90px;
   --font-size-11xl: 30px;
   --font-size-xl: 20px;
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-mini: 15px;
   --font-size-21xl: 40px;
-  --font-size-31xl: 50px;
 
   /* Colors */
   --color-black: #000;
   --color-white: #fff;
+  --color-khaki: #d1d14d;
+  --color-brown: #6c132b;
+  --color-firebrick: #bf0000;
   --color-dimgray: #707070;
   --color-yellowgreen: #f0ff6a;
   --color-darkorchid: #b503c2;
@@ -33,9 +36,12 @@ body {
   --color-maroon: #750707;
   --color-darkslateblue: #2e477a;
 
+  /* Gaps */
+  --gap-146xl: 165px;
+
   /* Border radiuses */
-  --br-sm: 14px;
-  --br-4xl: 23px;
   --br-16xl: 35px;
   --br-54xl: 73px;
+  --br-sm: 14px;
+  --br-4xl: 23px;
 }

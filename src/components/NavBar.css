@@ -14,23 +14,23 @@
     transform: scale(1);
   }
 }
-.home1 {
+.home2 {
   top: 2px;
   left: 0;
 }
-.home1.animate {
+.home2.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.home1:hover {
+.home2:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.about1,
-.home1,
-.login1,
-.merch1,
-.music1,
-.qa1 {
+.about2,
+.home2,
+.login2,
+.merch2,
+.music2,
+.qa2 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -43,69 +43,69 @@
   display: inline-block;
   opacity: 0;
 }
-.music1 {
+.music2 {
   top: 2px;
   left: calc(50% - 186px);
 }
-.music1.animate {
+.music2.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.music1:hover {
+.music2:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.about1,
-.login1,
-.merch1,
-.qa1 {
+.about2,
+.login2,
+.merch2,
+.qa2 {
   top: 0;
 }
-.login1 {
+.login2 {
   right: -1px;
 }
-.login1.animate {
+.login2.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.login1:hover {
+.login2:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.about1,
-.merch1,
-.qa1 {
+.about2,
+.merch2,
+.qa2 {
   left: calc(50% + 138px);
 }
-.qa1.animate {
+.qa2.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.qa1:hover {
+.qa2:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.about1,
-.merch1 {
+.about2,
+.merch2 {
   top: 2px;
   left: calc(50% + 33px);
 }
-.about1.animate {
+.about2.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.about1:hover {
+.about2:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.merch1 {
+.merch2 {
   left: calc(50% - 79px);
   opacity: 1;
 }
-.merch1.animate {
+.merch2.animate {
   animation: 1s ease 0s 1 normal forwards scale-up;
 }
-.merch1:hover {
+.merch2:hover {
   animation: 1s ease 0s infinite normal none scale-up;
   opacity: 1;
 }
-.home-parent {
+.home-group {
   position: absolute;
   top: 83px;
   right: 26px;
@@ -113,10 +113,10 @@
   height: 36px;
 }
 @media screen and (max-width: 1200px) {
-  .merch1 {
+  .merch2 {
     opacity: 1;
   }
-  .merch1.animate {
+  .merch2.animate {
     animation: 1s ease 0s 1 normal forwards scale-up;
   }
   @keyframes scale-up {
